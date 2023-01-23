@@ -139,10 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="1-1. (linked) binary tree.cpp" />
+    <ClCompile Include="1. binary tree.cpp" />
+    <ClCompile Include="2. binary search tree.cpp" />
+    <ClCompile Include="3. AVL tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1-1. (linked) binary tree.h" />
     <ClInclude Include="1. binary tree.h" />
+    <ClInclude Include="2. binary search tree.h" />
+    <ClInclude Include="3. AVL tree.h" />
+    <ClInclude Include="4. heap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
