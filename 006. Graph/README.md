@@ -1,4 +1,4 @@
-# Type of Graphs
+# Types of Graph
 
 - seperate by type of edge
 	- Undirected Graph			| (A, B)
