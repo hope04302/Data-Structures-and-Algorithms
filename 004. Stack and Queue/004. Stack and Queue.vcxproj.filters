@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\DataStructure\4. Queue\3. deque.h">
+    <ClInclude Include="1. stack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\DataStructure\4. Queue\1. stack.h">
+    <ClInclude Include="2. queue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\DataStructure\4. Queue\2. queue.h">
+    <ClInclude Include="3. deque.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DataStructure\4. Queue\source.cpp">
+    <ClCompile Include="source.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

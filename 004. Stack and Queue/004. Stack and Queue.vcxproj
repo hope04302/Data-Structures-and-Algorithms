@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\DataStructure\4. Queue\1. stack.h" />
-    <ClInclude Include="..\..\DataStructure\4. Queue\2. queue.h" />
-    <ClInclude Include="..\..\DataStructure\4. Queue\3. deque.h" />
+    <ClInclude Include="1. stack.h" />
+    <ClInclude Include="2. queue.h" />
+    <ClInclude Include="3. deque.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DataStructure\4. Queue\source.cpp" />
+    <ClCompile Include="source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

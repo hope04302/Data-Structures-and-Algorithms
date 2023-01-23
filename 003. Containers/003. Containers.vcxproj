@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DataStructure\3. Stack\1. vector.cpp" />
-    <ClCompile Include="..\..\DataStructure\3. Stack\2. stack.cpp" />
-    <ClCompile Include="..\..\DataStructure\3. Stack\3. calculator.cpp" />
+    <ClCompile Include="1. vector.cpp" />
+    <ClCompile Include="2. stack.cpp" />
+    <ClCompile Include="3. calculator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

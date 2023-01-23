@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0. node.h" />
+    <ClInclude Include="1. linked_list.h" />
+    <ClInclude Include="2. circular_linked_list.h" />
+    <ClInclude Include="3. doubly_linked_list.h" />
+    <ClInclude Include="4. polynomial.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,16 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\DataStructure\2. LinkedList\source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\DataStructure\2. LinkedList\0. node.h" />
-    <ClInclude Include="..\..\DataStructure\2. LinkedList\1. linked_list.h" />
-    <ClInclude Include="..\..\DataStructure\2. LinkedList\2. circular_linked_list.h" />
-    <ClInclude Include="..\..\DataStructure\2. LinkedList\3. doubly_linked_list.h" />
-    <ClInclude Include="..\..\DataStructure\2. LinkedList\4. polynomial.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

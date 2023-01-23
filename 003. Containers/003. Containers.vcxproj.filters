@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DataStructure\3. Stack\2. stack.cpp">
+    <ClCompile Include="1. vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DataStructure\3. Stack\3. calculator.cpp">
+    <ClCompile Include="2. stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DataStructure\3. Stack\1. vector.cpp">
+    <ClCompile Include="3. calculator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
