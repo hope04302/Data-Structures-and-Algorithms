@@ -143,6 +143,7 @@
     <ClCompile Include="1. binary tree.cpp" />
     <ClCompile Include="2. binary search tree.cpp" />
     <ClCompile Include="3. AVL tree.cpp" />
+    <ClCompile Include="4. heap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-1. (linked) binary tree.h" />

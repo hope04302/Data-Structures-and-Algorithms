@@ -25,7 +25,10 @@ private:
 		Node* right;
 	};
 
-	Node* root;
+	struct KeyAndNode {
+		Node* node;
+		int key;
+	};
 
 	// single rotation
 	Node* LL_rotate(Node* parent) {
@@ -70,21 +73,21 @@ private:
 	}
 
 	// rebalancing
-	Node* rebalance(Node* p) {
+	void rebalance(Node* &p) {
 		int BF = getBF(p);
 		if (BF > 1) {
 			if (getBF(p->left) > 0) { p = LL_rotate(p); }
 			else { p = LR_rotate(p); }
 		}
-		else {
+		else if (BF < -1) {
 			if (getBF(p->right) > 0) { p = RL_rotate(p); }
 			else { p = RR_rotate(p); }
 		}
-		return p;
 	}
 
 public:
 
+	Node* root;
 
 	AVLTree(int key) {
 		root = new Node{ key, NULL, NULL };
@@ -108,6 +111,81 @@ public:
 		return NULL;
 	}
 
+	Node* insert(int x, Node*& p) {
+		if (!p) {
+			Node* newNode = new Node{ x, NULL, NULL };
+			return newNode;
+		}
+		else if (x < p->key) {
+			p->left = insert(x, p->left);
+			rebalance(p);
+			return p;
+		}
+		else if (x > p->key) {
+			p->right = insert(x, p->right);
+			rebalance(p);
+			return p;
+		}
+		else { return NULL; }
+	}
+
+	KeyAndNode removeSucc(Node*& succ) {
+		if (!(succ->right)) {
+			Node* temp = succ->left;
+			int tempKey = succ->key;
+			delete succ;
+			return { temp, tempKey };
+		}
+		else {
+			KeyAndNode temp = removeSucc(succ->right);
+			succ->right = temp.node;
+			rebalance(succ);
+			return { succ, temp.key };
+		}
+	}
+
+	Node* remove(int x, Node*& p) {
+		if (!p) { return NULL; }
+		else if (x < p->key) {
+			p->left = remove(x, p->left);
+			rebalance(p);
+			return p;
+		}
+		else if (x > p->key) {
+			p->right = remove(x, p->right);
+			rebalance(p);
+			return p;
+		}
+		else {
+			int child_num = int(p->left != NULL) + int(p->right != NULL);
+
+			// 0 child
+			if (child_num == 0) {
+				delete p;
+				p = NULL;
+				return p;
+			}
+
+			// 1 child
+			if (child_num == 1) {
+				Node* child = NULL;
+				if (p->left) { child = p->left; }
+				else { child = p->right; }
+
+				delete p;
+				p = child;
+				return p;
+			}
+
+			// 2 child
+			if (child_num == 2) {
+				KeyAndNode tempKey = removeSucc(p->left);
+				p->key = tempKey.key;
+				p->left = tempKey.node;
+				return p;
+			}
+		}
+	}
 
 };
 

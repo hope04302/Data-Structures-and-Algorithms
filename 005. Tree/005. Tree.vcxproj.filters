@@ -27,6 +27,9 @@
     <ClCompile Include="3. AVL tree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4. heap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. binary tree.h">
