@@ -23,6 +23,9 @@
     <ClCompile Include="2. stack.cpp" />
     <ClCompile Include="3. calculator.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.me" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
