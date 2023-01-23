@@ -24,7 +24,7 @@
     <ClCompile Include="3. calculator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.me" />
+    <None Include="README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

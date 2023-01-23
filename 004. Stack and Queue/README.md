@@ -14,7 +14,7 @@ We use stack structure to make calculator which can process brackets.
 - infix notation
 - postfix notation
 
-cf) 문자열 역순 처리도 가능
+cf) 문자열 역순 처리도 가능함.
 
 ## Queue
 

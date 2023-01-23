@@ -26,7 +26,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.me">
+    <None Include="README.md">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
