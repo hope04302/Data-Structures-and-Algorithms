@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="1. graph(matrix).h" />
     <ClInclude Include="2. graph(list).h" />
+    <ClInclude Include="3. traversal.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. graph(matrix).cpp" />

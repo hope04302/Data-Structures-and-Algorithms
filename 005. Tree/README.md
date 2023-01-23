@@ -25,17 +25,17 @@ Group of trees is spoked as "Forest".
 
 We can make "Binary Search Tree" and "Heap" to use tree structure.
 
-- Traversal
+- traversal
 	- preorder traversal
 	- inorder traversal
 	- postorder traversal
 
-- Binary Search Tree
+- binary search tree
 	- keys of left tree < key < keys of right tree
 	- AVL Tree: more efficient
 		- LL & RR rotate
 		- LR : RR -> LL
 		- RL : LL -> RR
 
-- Heap(often made by ordered tree)
+- heap(often made by ordered tree)
 	- keys of children < key of parent

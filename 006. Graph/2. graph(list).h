@@ -9,7 +9,7 @@ using namespace std;
 
 class Graph {
 
-private:
+protected:
 
 	struct Node {
 		int vertex;

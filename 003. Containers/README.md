@@ -2,12 +2,19 @@
 
 Containers is one of STL(C++). Because of these, we can make programs more efficiently.
 
-- vector
-- queue & deque
-- list
-- map & multimap
-- set & multiset
-- priority_queue, etc...
+- sequence container
+	- vector
+	- deque
+	- list
+
+- associative container
+	- map & multimap
+	- set & multiset
+
+- adapter container
+	- stack
+	- queue
+	- priority_queue
 
 cf) We can use simular methods to "string" type.
 cf) In library "Algorithm", there are more functions of vector.
