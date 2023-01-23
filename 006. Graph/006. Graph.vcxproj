@@ -141,6 +141,14 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1. graph(matrix).h" />
+    <ClInclude Include="2. graph(list).h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1. graph(matrix).cpp" />
+    <ClCompile Include="2. graph(list).cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -4,9 +4,9 @@ Graph is one of non-linear data structure. It includes Vertexes and Edges.
 It expressed like "{A, B, C}".
 
 - seperate by type of edge
-	- undirected eraph	| (A, B)
-	- directed eraph(digraph)	| <A, B>: A -> B
-	- weight eraph
+	- undirected graph	| (A, B)
+	- directed graph(digraph)	| <A, B>: A -> B
+	- weight graph
 
 - seperate by form
 	- complete graph
