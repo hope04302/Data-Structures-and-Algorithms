@@ -1,7 +1,5 @@
 # Tree
 
-## Basics of Tree
-
 Tree is one of non-linear data structure and "Hierarchical Data Structure". It includes "Nodes" and "Edges".
 We say relation of nodes like "parent", "child", "sibling", "ancestor", etc.
 Group of trees is spoked as "Forest".

@@ -1,7 +1,5 @@
 # Graph
 
-## Basics of Graph
-
 Graph is one of non-linear data structure. It includes Vertexes and Edges.
 It expressed like "{A, B, C}".
 
@@ -22,3 +20,10 @@ It expressed like "{A, B, C}".
 	- start node == end node -> cycle (digraph -> DAG; directed acyclic graph)
 	- if path exists -> "connected"
 	- connected graph ... disconnected graph
+
+## (Graph) Search
+
+Graph Search is also called as "Graph Traversal".
+
+- DFS: depth first search(±íÀÌ ¿ì¼± Å½»ö)
+- BFS: breadth first search(³Êºñ ¿ì¼± Å½»ö)
