@@ -149,6 +149,11 @@
   <ItemGroup>
     <ClCompile Include="1. graph(matrix).cpp" />
     <ClCompile Include="2. graph(list).cpp" />
+    <ClCompile Include="3. traversal.cpp" />
+    <ClCompile Include="4-1. exercise(Dijkstra).cpp" />
+    <ClCompile Include="4. dijkstra algorithm.cpp" />
+    <ClCompile Include="5-1. exercise(Floyd).cpp" />
+    <ClCompile Include="5. floyd algorithm.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

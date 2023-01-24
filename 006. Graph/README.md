@@ -1,6 +1,6 @@
 # Graph
 
-Graph is one of non-linear data structure. It includes Vertexes and Edges.
+Graph is one of non-linear data structure. It includes "Vertices(VertexÀÇ º¹¼ö)" and "Edges".
 It expressed like "{A, B, C}".
 
 - seperate by type of edge
@@ -29,13 +29,13 @@ It expressed like "{A, B, C}".
 
 Graph Traversal is also called as "Graph Search".
 
-- DFS: depth first search(±íÀÌ ¿ì¼± Å½»ö)
-- BFS: breadth first search(³Êºñ ¿ì¼± Å½»ö)
+- DFS: depth first search(±íÀÌ ¿ì¼± Å½»ö) (made by stack)
+- BFS: breadth first search(³Êºñ ¿ì¼± Å½»ö) (made by queue)
 
-## Minimum Cost Spanning Tree
+## Minimum Cost Spanning Tree (learn lightly)
 
 "Tree" in graph-part means graph without cycles.
-"Spanning Tree" is the tree which has (n) vertaxes and (n - 1) edges.
+"Spanning Tree" is the tree which has (n) vertices and (n - 1) edges.
 Traversal path also includes them.
 
 - traversal path
@@ -54,4 +54,7 @@ We can find it to use some algorithms.
 We can find it to use some algorithms.
 
 - Dijkstra algorithm (one to all shortest path)
+	- D[i] <- min(D[i], D[u] + w[u][i])
 - Floyd algorithm (all to all shortest path)
+	- A(-1) = w(default)
+	- A(k) <- min(A(k - 1), A[i][k] + A[k][j])

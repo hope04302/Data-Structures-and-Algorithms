@@ -37,5 +37,20 @@
     <ClCompile Include="2. graph(list).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3. traversal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4. dijkstra algorithm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5. floyd algorithm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4-1. exercise(Dijkstra).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5-1. exercise(Floyd).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
