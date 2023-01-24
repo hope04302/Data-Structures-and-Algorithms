@@ -1,8 +1,8 @@
 # Tree
 
-Tree is one of non-linear data structure and "Hierarchical Data Structure". It includes "Nodes" and "Edges".
-We say relation of nodes like "parent", "child", "sibling", "ancestor", etc.
-Group of trees is spoked as "Forest".
+Tree is one of non-linear data structure and "Hierarchical Data Structure". It includes "Nodes" and "Edges". 
+We say relation of nodes like "parent", "child", "sibling", "ancestor", etc. 
+Group of trees is spoked as "Forest". 
 
 - elements of tree
 	- degree(Â÷¼ö)
@@ -23,7 +23,7 @@ Group of trees is spoked as "Forest".
 
 ## Algorithms of Tree
 
-We can make "Binary Search Tree" and "Heap" to use tree structure.
+We can make "Binary Search Tree" and "Heap" to use tree structure. 
 
 - traversal
 	- preorder traversal

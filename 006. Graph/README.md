@@ -1,7 +1,7 @@
 # Graph
 
-**Graph** is one of non-linear data structure. It includes "Vertices(Vertex의 복수)" and "Edges".
-It expressed like `{A, B, C}`.
+**Graph** is one of non-linear data structure. It includes "Vertices(Vertex의 복수)" and "Edges". 
+It expressed like `{A, B, C}`. 
 
 - seperate by type of edge
 	- undirected graph	| `(A, B)`
@@ -27,32 +27,32 @@ It expressed like `{A, B, C}`.
 
 ## Graph Traversal
 
-**Graph Traversal** is also called as "Graph Search".
+**Graph Traversal** is also called as "Graph Search". 
 
 - DFS: depth first search(깊이 우선 탐색) (made by stack)
 - BFS: breadth first search(너비 우선 탐색) (made by queue)
 
 ## Minimum Cost Spanning Tree (learn lightly)
 
-**Tree** in graph-part means graph without cycles.
-**Spanning Tree** is the tree which has (n) vertices and (n - 1) edges.
-**Traversal path** also includes them.
+**Tree** in graph-part means graph without cycles. 
+**Spanning Tree** is the tree which has (n) vertices and (n - 1) edges. 
+**Traversal path** also includes them. 
 
 - traversal path
 
 	- depth first spanning tree
 	- breadth second spanning tree
 
-**Minimum Cost Spanning Tree** is one of spanning tree, which has the lowest sum of weights.
-We can find it to use some algorithms.
+**Minimum Cost Spanning Tree** is one of spanning tree, which has the lowest sum of weights. 
+We can find it to use some algorithms. 
 
 - Kruskal algorithm(type 1, type 2)
 - Prime algorithm
 
 ## Shortest Path
 
-**Shortest Path** is the path which has lowest sum of weights in "Network(= weight graph without spanning tree)".
-We can find it to use some algorithms.
+**Shortest Path** is the path which has lowest sum of weights in "Network(= weight graph without spanning tree)". 
+We can find it to use some algorithms. 
 
 - Dijkstra algorithm (one to all shortest path)
 	- D[i] <- min(D[i], D[u] + w[u][i])

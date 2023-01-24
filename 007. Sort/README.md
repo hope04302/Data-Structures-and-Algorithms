@@ -1,7 +1,7 @@
 # Sort
 
-We sometimes need to arrange some data in (ascending or descending) order.
-**Sort** functions need to do it.
+We sometimes need to arrange some data in (ascending or descending) order. 
+**Sort** functions need to do it. 
 
 - `O(n^2)` Sorts (stable)
 	
