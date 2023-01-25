@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{eb6e9e89-c2e2-4953-bec0-e8960ab17918}</ProjectGuid>
-    <RootNamespace>My005Tree</RootNamespace>
+    <ProjectGuid>{28b971e7-42b4-4f19-a67b-e03149d33150}</ProjectGuid>
+    <RootNamespace>My008Search</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,19 +138,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="1-1. (linked) binary tree.cpp" />
-    <ClCompile Include="1. binary tree.cpp" />
-    <ClCompile Include="2. binary search tree.cpp" />
-    <ClCompile Include="3. AVL tree.cpp" />
-    <ClCompile Include="4. heap.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="1-1. (linked) binary tree.h" />
-    <ClInclude Include="1. binary tree.h" />
-    <ClInclude Include="2. binary search tree.h" />
-    <ClInclude Include="3. AVL tree.h" />
-  </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>

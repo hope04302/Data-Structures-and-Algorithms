@@ -140,12 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1. basic sorts.cpp" />
+    <ClCompile Include="2-1. heap sort.cpp" />
+    <ClCompile Include="2-2. tree sort.cpp" />
     <ClCompile Include="2. advanced sorts.cpp" />
     <ClCompile Include="3. special sorts.cpp" />
     <ClCompile Include="4. STL, algorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="005. Tree - 2. binary search tree.h" />
+    <ClInclude Include="005. Tree - 4. heap(fixed).h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

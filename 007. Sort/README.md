@@ -18,6 +18,16 @@ We sometimes need to arrange some data in (ascending or descending) order.
 
 - Special Sorts
 
-	- shell sort `O(n^1.5)` (unstable)
+	- shell sort `O(n^1.25)` (unstable)
 	- radix sort `O(n)` (stable)
 	- counting sort	`max(O(n), O(k))` (stable)
+
+## Divide and Conquer
+
+We must use **Dynamic Programming** and **Divide and Conquer** to make effecient programs.
+
+**Note:** We must use these concepts to process quick sort and merge sort.
+
+## algorithm, STL
+
+We can use functions about sort and vector, etc. through **algorithm** library.
