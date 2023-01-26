@@ -19,4 +19,15 @@
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1. sequential search.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2. index sequential search.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3. binary search.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

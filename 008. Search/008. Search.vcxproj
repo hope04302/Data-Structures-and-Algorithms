@@ -141,6 +141,11 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1. sequential search.cpp" />
+    <ClCompile Include="2. index sequential search.cpp" />
+    <ClCompile Include="3. binary search.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

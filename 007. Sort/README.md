@@ -13,6 +13,7 @@ We sometimes need to arrange some data in (ascending or descending) order.
 
 	- quick sort (unstable)
 	- merge sort (stable)
+		- 2-way & n-way
 	- heap sort (unstable)
 	- tree sort (unstable)
 

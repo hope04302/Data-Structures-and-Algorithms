@@ -24,6 +24,8 @@ Basic sequential search is also said as "Basic Sequential Search" or "Linear Sea
 
 ## Binary Search
 
+**Binary Search** is also said as "Interpolation Search". Divide process makes it works fast.
+
 ## Binary Tree Search
 
 ## Hashing
