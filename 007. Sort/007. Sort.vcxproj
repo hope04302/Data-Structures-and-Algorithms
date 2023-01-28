@@ -144,7 +144,6 @@
     <ClCompile Include="2-2. tree sort.cpp" />
     <ClCompile Include="2. advanced sorts.cpp" />
     <ClCompile Include="3. special sorts.cpp" />
-    <ClCompile Include="4. STL, algorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

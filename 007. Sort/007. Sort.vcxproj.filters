@@ -24,9 +24,6 @@
     <ClCompile Include="3. special sorts.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4. STL, algorithms.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2-1. heap sort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
