@@ -53,5 +53,8 @@ This technique sometimes generate "Synonyms" and "Collisions".
 	- 비트 추출 함수
 
 - How to solve overflow?
-	- linear probing
+	- open addressing
+		- linear probing
+		- quadratic probing
+		- double hashing
 	- chaining
