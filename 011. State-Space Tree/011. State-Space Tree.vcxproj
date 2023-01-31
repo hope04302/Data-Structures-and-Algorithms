@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a07b823d-17be-405a-8575-c7b1c40e3c67}</ProjectGuid>
-    <RootNamespace>My010GraphAlgorithms</RootNamespace>
+    <ProjectGuid>{1112d5d9-3919-4c76-83e1-3a0fb5d355cf}</ProjectGuid>
+    <RootNamespace>My011StateSpaceTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1. BFS and DFS.cpp" />
-    <ClCompile Include="2. prim algorithm.cpp" />
-    <ClCompile Include="3. kruskal algorithm.cpp" />
-    <ClCompile Include="4-1. nlogn dijkstra.cpp" />
-    <ClCompile Include="4. dijkstra algorithm.cpp" />
-    <ClCompile Include="5. bellman-ford algorithm.cpp" />
-    <ClCompile Include="6. floyd-warshall algorithm.cpp" />
-    <ClCompile Include="7. shortest path on DAG.cpp" />
-    <ClCompile Include="8. strongly connectedd component.cpp" />
+    <ClCompile Include="1. TSP(1).cpp" />
+    <ClCompile Include="2. TSP(2).cpp" />
+    <ClCompile Include="3. 미로 찾기 문제.cpp" />
+    <ClCompile Include="4. 색칠 문제.cpp" />
+    <ClCompile Include="5. TSP(3).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -42,7 +42,7 @@
 //		if (D[now] < now_w) { continue; }
 //		for (int i = 0; i < n; i++) {
 //			// 만약 단축 가능하면...
-//			// 참고: 이미 최단거리인 경우, 아래 식 성립 불가
+//			// 참고: 이미 최단거리인 경우 & 단절된 경우, 아래 식 성립 불가
 //			if (D[now] + G[now][i] < D[i]) {
 //				D[i] = D[now] + G[now][i];
 //				queue.push(make_pair(i, D[i]));	// 단축된 결과로 투입(기존 건 if로 무시)

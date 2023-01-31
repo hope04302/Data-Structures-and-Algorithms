@@ -40,9 +40,10 @@
 //	check.push(s);
 //	cout << s << " ";
 //	
-//	int targ = s;
+//	int targ;
 //	int i;
 //	while (!check.empty()) {
+//		targ = check.top(); 
 //		i = 0;
 //		while (i < n) {
 //			if ((graph[targ][i] != 0) && (visited[i] == false)) {
@@ -54,7 +55,7 @@
 //			}
 //			else { i++; }
 //		}
-//		targ = check.top(); check.pop();
+//		check.pop();
 //	}
 //	cout << endl;
 //}

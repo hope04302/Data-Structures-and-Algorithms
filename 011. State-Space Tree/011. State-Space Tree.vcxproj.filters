@@ -15,31 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1. BFS and DFS.cpp">
+    <ClCompile Include="1. TSP(1).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2. prim algorithm.cpp">
+    <ClCompile Include="2. TSP(2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3. kruskal algorithm.cpp">
+    <ClCompile Include="3. 미로 찾기 문제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4. dijkstra algorithm.cpp">
+    <ClCompile Include="4. 색칠 문제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5. bellman-ford algorithm.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4-1. nlogn dijkstra.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6. floyd-warshall algorithm.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7. shortest path on DAG.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="8. strongly connectedd component.cpp">
+    <ClCompile Include="5. TSP(3).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
